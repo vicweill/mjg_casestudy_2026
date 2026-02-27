@@ -20,7 +20,7 @@ Les données disponibles représentent le marché principal de My Job Glasses, o
 Exécuter les commandes `dbt seed` puis `dbt run`
 
 
-## Visualisation avec Metabase
+## 3. Visualisation avec Metabase
 Pour la partie visualisation, j'ai utilisé Metabase pour être au plus proche de la stack utilisée chez My Job Glasses.
 
 - Prérequis : avoir installé et lancé Docker
