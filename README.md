@@ -58,8 +58,10 @@ Pour la partie visualisation, j'ai utilisé Metabase pour être au plus proche d
 # Choix réalisés
 
 ## dbt
-- **Format de données**
+- **Base de données**
+
 J'ai choisi d'utiliser **DuckDB** par soucis de rapidité et de simplicité. Ca m'a permis de créer une base de données en stockant simplement les CSV que j'avais reçus dans des fichiers seed.
+
 - **Modélisation**
     - **Staging** - J'ai utilisé cette étape pour renommer des colonnes et corriger quelques champs textuels en lowercase pour garantir l'uniformité des valeurs.
     - **Intermediate** - J'ai proposé 2 vues pouvant servir de raccourci pour des jointures de futures requêtes, afin d'éviter des répétitions.
