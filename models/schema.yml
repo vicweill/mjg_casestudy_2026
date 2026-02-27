@@ -1,0 +1,39 @@
+
+version: 2
+
+models:
+  - name: stg_appointments
+    description: ""
+    columns:
+      - name: id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_conversations
+    description: ""
+    columns:
+      - name: id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_professional_profiles
+    description: ""
+    columns:
+      - name: id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_schools
+    description: ""
+    columns:
+      - name: id
+        data_tests:
+          - unique
+          - not_null
+  - name: stg_users
+    description: ""
+    columns:
+      - name: id
+        data_tests:
+          - unique
+          - not_null
